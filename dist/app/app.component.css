@@ -1,0 +1,396 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+body {
+  font-family: 'Raleway', sans-serif; }
+
+.section {
+  width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+div {
+  font-family: 'Raleway', sans-serif; }
+
+.pink {
+  background-color: #E81E7C; }
+
+.pink_dark {
+  background-color: #a21556; }
+
+#main_content {
+  width: 100%; }
+
+.top_header {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #cecece;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(138deg, #933EC5 50%, #ffffff 50%); }
+  .top_header .menu {
+    padding-top: 20px; }
+    .top_header .menu .news_btn {
+      width: 50px;
+      height: 50px;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 50%;
+      float: right;
+      margin-right: 100px;
+      background-color: #933EC5;
+      box-shadow: 2px 2px 5px #582576; }
+      .top_header .menu .news_btn .news_icon {
+        width: 30px;
+        height: 30px;
+        background-image: url("../app/newspaper.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 3px; }
+  .top_header .logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 0;
+    left: 10%;
+    float: left; }
+  .top_header .logo_text {
+    font-size: 16px;
+    color: #999999;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px; }
+
+.contentbox {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  background-color: #ececec; }
+  .contentbox .wrapper {
+    padding: 30px; }
+    .contentbox .wrapper p {
+      text-align: center; }
+
+.connect_container {
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  overflow: hidden;
+  height: 50px;
+  width: 170px;
+  z-index: 2;
+  background-color: #ededed;
+  float: right;
+  position: absolute;
+  right: 0;
+  position: fixed;
+  box-shadow: 2px 1px 3px #888888;
+  cursor: pointer; }
+  .connect_container:hover {
+    -webkit-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    -moz-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    -o-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    width: 900px;
+    height: 500px;
+    cursor: default; }
+  .connect_container .connect_btn {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    background-color: #933EC5;
+    display: inline;
+    box-shadow: 0px 1px 3px #888888;
+    cursor: pointer; }
+    .connect_container .connect_btn .icon {
+      width: 30px;
+      height: 30px;
+      margin-left: calc(50% - 15px);
+      background-image: url("../app/network.png");
+      background-repeat: no-repeat;
+      background-size: contain; }
+  .connect_container .text_menu {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    top: -16px;
+    margin-left: 15px; }
+
+.safari_text {
+  font-size: 14px;
+  display: inline;
+  position: relative;
+  top: -10px;
+  margin-left: 15px; }
+
+.socialmedia {
+  width: 100%;
+  height: 100%; }
+  .socialmedia .logos {
+    height: 100px;
+    margin-left: calc(50% - 98px); }
+    .socialmedia .logos img {
+      width: 35px;
+      height: 35px;
+      float: left;
+      margin: 15px; }
+  .socialmedia .buttons {
+    margin-left: calc(50% - 205px); }
+    .socialmedia .buttons button {
+      width: 175px;
+      height: 50px;
+      float: left;
+      margin: 15px;
+      border-width: 0px;
+      box-shadow: 1px 1px 3px #888888;
+      cursor: pointer; }
+      .socialmedia .buttons button img {
+        width: 30px;
+        height: 30px;
+        float: left;
+        position: relative;
+        top: 7px;
+        left: 15px; }
+      .socialmedia .buttons button p {
+        font-size: 16px;
+        color: white;
+        position: relative;
+        top: -3px;
+        left: -11px; }
+    .socialmedia .buttons .facebook_btn {
+      background-color: #3b5998; }
+    .socialmedia .buttons .google_btn {
+      background-color: #dd4b39; }
+
+.settings_container {
+  z-index: 1;
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  overflow: hidden;
+  width: 170px;
+  height: 50px;
+  background-color: #ededed;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 200px;
+  position: fixed;
+  box-shadow: 2px 1px 3px #888888;
+  cursor: pointer; }
+  .settings_container:hover {
+    -webkit-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    -moz-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    -o-transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
+    width: 900px;
+    height: 500px;
+    cursor: default; }
+  .settings_container .contentbox .news_selection {
+    width: 100%;
+    height: 200px; }
+    .settings_container .contentbox .news_selection .centered_text {
+      text-align: center; }
+    .settings_container .contentbox .news_selection .newsmenu {
+      margin-left: calc(50% -  320px); }
+      .settings_container .contentbox .news_selection .newsmenu .menuitem {
+        width: 50px;
+        height: 70px;
+        margin: 10px;
+        float: left;
+        cursor: pointer; }
+        .settings_container .contentbox .news_selection .newsmenu .menuitem img {
+          width: 50px;
+          height: 50px; }
+        .settings_container .contentbox .news_selection .newsmenu .menuitem p {
+          text-align: center;
+          font-size: 12px;
+          word-wrap: break-word;
+          word-break: normal;
+          margin-top: 0px; }
+  .settings_container .contentbox .searchusers {
+    width: 100%; }
+    .settings_container .contentbox .searchusers p {
+      text-align: center; }
+    .settings_container .contentbox .searchusers .findbox {
+      margin-left: calc(50% - 160px); }
+      .settings_container .contentbox .searchusers .findbox img {
+        display: inline;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 10px;
+        margin-right: 20px; }
+      .settings_container .contentbox .searchusers .findbox input {
+        display: inline;
+        border-width: 1px;
+        width: 250px;
+        height: 25px;
+        padding: 5px;
+        color: #505050;
+        font-size: 14px;
+        border-color: transparent;
+        border-style: solid;
+        border-radius: 2px;
+        box-shadow: 1px 1px 2px #cdcdcd; }
+  .settings_container .connect_btn {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    background-color: #933EC5;
+    display: inline;
+    box-shadow: 0px 1px 3px #888888;
+    cursor: pointer; }
+    .settings_container .connect_btn .icon {
+      width: 30px;
+      height: 30px;
+      margin-left: calc(50% - 15px);
+      background-image: url("../app/settings.png");
+      background-repeat: no-repeat;
+      background-size: contain; }
+  .settings_container .text_menu {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    top: -16px;
+    margin-left: 15px; }
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInFromNone {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.news_batch {
+  margin-bottom: 20px;
+  max-width: calc(320px * 3);
+  margin-left: auto;
+  margin-right: auto; }
+  .news_batch .news_card {
+    -webkit-animation: fadeInFromNone 0.7s ease-out;
+    -moz-animation: fadeInFromNone 0.7s ease-out;
+    -o-animation: fadeInFromNone 0.7s ease-out;
+    animation: fadeInFromNone 0.7s ease-out;
+    margin: 2px;
+    width: 300px;
+    height: 345px;
+    background-color: #fefefe;
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cecece;
+    margin-bottom: 30px; }
+    .news_batch .news_card .head {
+      width: 100%;
+      height: 50px;
+      position: relative;
+      top: -16px;
+      padding-left: 15px;
+      padding-top: 15px; }
+      .news_batch .news_card .head img {
+        width: 30px;
+        height: 30px;
+        float: left;
+        position: relative;
+        top: 10px; }
+      .news_batch .news_card .head p {
+        float: left;
+        margin-left: 10px; }
+    .news_batch .news_card .main_image {
+      width: 100%;
+      height: 180px;
+      position: relative;
+      top: -16px; }
+    .news_batch .news_card .text {
+      padding: 15px;
+      position: relative;
+      top: -35px; }
+      .news_batch .news_card .text .header {
+        font-size: 16px;
+        font-weight: 600;
+        color: #202020; }
+      .news_batch .news_card .text .description {
+        font-size: 14px;
+        position: relative;
+        top: -10px;
+        font-weight: 600;
+        color: #909090; }
+
+.utilities {
+  width: calc(100% - 950px);
+  height: 100vh;
+  float: left; }
+  .utilities .clock_weather {
+    width: 70%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px; }
+    .utilities .clock_weather .clock {
+      height: 50px;
+      margin-left: calc(50% - 50px); }
+      .utilities .clock_weather .clock .time {
+        font-size: 45px;
+        color: #505050;
+        display: inline; }
+      .utilities .clock_weather .clock .ampm {
+        font-size: 25px;
+        color: #505050;
+        display: inline; }
+    .utilities .clock_weather .forecast {
+      margin-left: calc(50% - 50px);
+      margin-top: 20px; }
+      .utilities .clock_weather .forecast img {
+        width: 28px;
+        height: 28px;
+        display: inline;
+        margin-left: 25px; }
+      .utilities .clock_weather .forecast .text {
+        display: inline;
+        font-size: 20px;
+        margin-top: -10px;
+        margin-left: 6px; }
+      .utilities .clock_weather .forecast .location {
+        margin-top: 0px;
+        font-size: 12px; }
+  .utilities .extra {
+    border-top-width: 1px;
+    border-top-color: #eaeaea;
+    border-top-style: solid;
+    padding-top: 30px; }
+    .utilities .extra .logo {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: -50px;
+      left: 30px; }
+    .utilities .extra .instagram {
+      width: 300px;
+      height: 380px;
+      background-color: #eaeaea;
+      margin-left: calc(50% - 130px);
+      margin-top: -50px; }
+      .utilities .extra .instagram img {
+        width: 290px;
+        max-height: 370px;
+        margin-left: 5px;
+        margin-top: 5px; }
